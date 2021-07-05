@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Welcome to Flutter',
       home: MyAppHome(),
+
       theme: ThemeData(textTheme: TextTheme(body1: TextStyle(fontSize: 20.0)),),
     );
   }
